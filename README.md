@@ -4,7 +4,7 @@ This repo details a PowerShell script I created to automate adding members to a 
 # PowerShell Script
 Function: Add Users to a Team on Microsoft Teams.
 ```
-Import-CSV .\FileName.csv | ForEach-Object {Add-TeamUser -GroupId [GroupId] -User $($_.Email))
+Import-CSV .\FileName.csv | ForEach-Object {Add-TeamUser -GroupId [GroupId] -User $($_.Email)}
 ```
 
 # How to Use
