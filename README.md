@@ -57,7 +57,7 @@ Set-Location -Path
 ```
 6. Run the PowerShell script:
 ```
-Import-CSV .\FileName.csv | ForEach-Object {Add-TeamUser -GroupId [GroupId] -User $($_.Email))
+Import-CSV .\FileName.csv | ForEach-Object {Add-TeamUser -GroupId [GroupId] -User $($_.Email)}
 ```
 7. As the PowerShell script is running, go to the Team on Microsoft Teams, click on "...", click on "Manage Team", and look at the number of members. If the PowerShell script is successful, then you will continue to see the number of members increase until the script has worked through all of the provided emails from your .csv file.
 
