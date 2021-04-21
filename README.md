@@ -61,8 +61,6 @@ Import-CSV .\FileName.csv | ForEach-Object {Add-TeamUser -GroupId [GroupId] -Use
 ```
 7. As the PowerShell script is running, go to the Team on Microsoft Teams, click on "...", click on "Manage Team", and look at the number of members. If the PowerShell script is successful, then you will continue to see the number of members increase until the script has worked through all of the provided emails from your .csv file.
 
-Note: If there are any errors, they will appear in red text. For example, if your company has contractors, vendors, interns, or employees that no longer work there and their email addresses are deactivated, you will typically see errors when attempting to add those people to a Team on Microsoft Teams.
-
 ## Common Errors
 Note: If there are any errors, then those errors will appear in red text.
 
