@@ -70,6 +70,6 @@ Error #1: ResourceNotFound
 ```
 Add-TeamUser : Error occurred while executing
 Code: Request_ResourceNotFound
-Message: Resource '[email]' does not exist or one of its queried reference-property objectis are not present.
+Message: Resource '[email]' does not exist or one of its queried reference-property object is are not present.
 ```
 Rationale: You may receive this error because the user you are trying to add by email has had their account deactivated. For example, if your company has employees, contractors, vendors, or interns that no longer work there, their email addresses will be deactivated and you will typically see the ResourceNotFound error when attempting to add those users to a Team on Microsoft Teams.
